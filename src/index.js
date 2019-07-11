@@ -439,7 +439,7 @@ class ReactNativeModal extends Component {
     }
   };
 
-  open = () => {
+  open () {
     if (this.isTransitioning) {
       return;
     }
@@ -473,7 +473,7 @@ class ReactNativeModal extends Component {
     }
   };
 
-  close = () => {
+  close () {
     if (this.isTransitioning) {
       return;
     }
